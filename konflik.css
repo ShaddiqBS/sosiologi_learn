@@ -1,0 +1,162 @@
+/* styles.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f4f8; /* Warna background soft */
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #2ecc71; /* Warna hijau cerah */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #27ae60; /* Warna hijau lebih gelap */
+}
+
+main {
+    padding: 40px 0;
+}
+
+.blog-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: #27ae60; /* Warna hijau sedang */
+    color: #fff;
+    padding: 20px;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.card-header .meta {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body .intro {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-body h3 {
+    color: #27ae60; /* Warna hijau sedang */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card-body ul li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+.card-body ul li i {
+    color: #2ecc71; /* Warna hijau cerah */
+    margin-right: 10px;
+}
+
+.card-body p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.card-footer {
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.btn {
+    background: #2ecc71; /* Warna hijau cerah */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #27ae60; /* Warna hijau lebih gelap */
+}
+
+footer {
+    background: #27ae60; /* Warna hijau sedang */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
